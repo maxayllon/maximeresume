@@ -1,0 +1,12 @@
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .photo_moi {
+    width: 400px;
+    height: 400px;
+  }
+  .description {
+    width: 30%;
+  }
+}

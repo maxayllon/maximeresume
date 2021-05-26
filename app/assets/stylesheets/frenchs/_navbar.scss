@@ -1,0 +1,15 @@
+.navbar {
+  .language {
+    width: 160px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .categories{
+    width: 280px;
+    display: flex;
+    justify-content: space-around;
+  }
+  h4 {
+    font-size: 16px;
+  }
+}
