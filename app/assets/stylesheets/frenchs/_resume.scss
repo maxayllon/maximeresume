@@ -1,0 +1,29 @@
+.resume {
+  width: 80%;
+  margin: 0 auto;
+  .category {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    border-bottom: 1px solid $border;
+  }
+
+  .items {
+    margin-top: 16px;
+  }
+
+  .item{
+    display: flex;
+    margin-bottom: 56px;
+  }
+
+  .item-description {
+    max-width: 500px;
+  }
+
+  .item-date {
+    padding-right: 20px;
+    padding-top: 2px;
+  }
+}
+

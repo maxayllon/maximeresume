@@ -2,24 +2,37 @@
   min-height: 40px;
   margin-top: 8px;
   .language {
-    width: 160px;
     display: flex;
     justify-content: space-around;
   }
   .categories-buttons{
-    width: 280px;
     display: flex;
     justify-content: space-around;
-    .category-button {
-      border: none;
-      background-color: $light-gray;
-      &:hover {
-        color: $light-brown;
-        transition-duration: 0.4s;
-      }
-    }
+    margin-right: 40px;
   }
   h4 {
     font-size: 16px;
+  }
+  .category-button {
+    color: black;
+    border: none;
+    background-color: $light-gray;
+    margin-bottom: 8px;
+    padding-left: 20px;
+    &:hover {
+      text-decoration: none;
+      color: $light-brown;
+      transition-duration: 0.4s;
+    }
+  }
+
+  .right-border {
+    border-right: 1px solid;
+    padding-right: 20px;
+  }
+
+  .page {
+    color: $light-brown;
+    font-weight: bold;
   }
 }
