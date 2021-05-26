@@ -1,13 +1,23 @@
 .navbar {
+  min-height: 40px;
+  margin-top: 8px;
   .language {
     width: 160px;
     display: flex;
     justify-content: space-around;
   }
-  .categories{
+  .categories-buttons{
     width: 280px;
     display: flex;
     justify-content: space-around;
+    .category-button {
+      border: none;
+      background-color: $light-gray;
+      &:hover {
+        color: $light-brown;
+        transition-duration: 0.4s;
+      }
+    }
   }
   h4 {
     font-size: 16px;

@@ -1,12 +1,50 @@
 .banner {
+  min-height: 600px;
   display: flex;
   align-items: center;
   justify-content: center;
   .photo_moi {
-    width: 400px;
-    height: 400px;
+    width: 480px;
+    height: 480px;
+    margin-right: 24px;
   }
   .description {
-    width: 30%;
+    margin-left: 24px;
+    .text {
+      max-width: 360px;
+    }
+  }
+  .descriptions-buttons{
+    margin-top: 40px;
+    .description-button {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    border: 1px solid;
+    font-size: 22px;
+    margin-right: 8px;
+    }
+    #yellow-button {
+      background-color: $yellow-button;
+      &:hover {
+        background-color: $light-gray;
+        transition-duration: 0.4s;
+      }
+    }
+    #red-button {
+      background-color: $red-button;
+      &:hover {
+        background-color: $light-gray;
+        transition-duration: 0.4s;
+      }
+    }
+    #blue-button {
+      background-color: $blue-button;
+      &:hover {
+        background-color: $light-gray;
+        transition-duration: 0.4s;
+      }
+    }
   }
 }
+
