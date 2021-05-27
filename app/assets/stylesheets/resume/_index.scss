@@ -1,0 +1,22 @@
+@import "navbar";
+@import "banner";
+@import "footer";
+@import "resume";
+
+.no-display {
+  display: none;
+}
+
+.display {
+  display: "";
+}
+
+.margin-top {
+  margin-top: 100px;
+}
+
+.red {
+  background-color: red;
+}
+
+
