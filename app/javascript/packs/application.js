@@ -33,8 +33,9 @@ document.addEventListener('turbolinks:load', () => {
     resume.classList.add("margin-top");
     resume.classList.remove("no-display");
     const language = document.querySelector(".language");
-    console.log(language);
-    language.classList.add("no-display")
+    language.classList.add("no-display");
+    const menu = document.querySelector(".menu");
+    menu.classList.remove("no-display");
   }
 
 

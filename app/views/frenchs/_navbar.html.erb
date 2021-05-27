@@ -3,16 +3,22 @@
     <%= link_to "Français", root_path, class:"category-button right-border page" %>
     <%= link_to "English", english_path, class:"category-button left-padding" %>
   </div>
+  <div class="menu no-display">
+    <%= link_to root_path, class:"menu-button" do %>
+      <div class="square"></div>
+      <h3>Maxime Ayllon</h3>
+    <% end %>
+  </div>
 
   <div class="categories-buttons">
     <button class="category-button right-border resume-button">
       CV
     </button>
     <button class="category-button right-border">
-      Projets
+      Loisirs
     </button>
     <button class="category-button">
-      Contact
+      Compétences
     </button>
   </div>
 </div>
