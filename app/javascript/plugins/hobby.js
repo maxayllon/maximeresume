@@ -4,6 +4,7 @@ const hobbyPage = () => {
   const resume = document.querySelector(".resume");
   resume.classList.add("no-display");
   const hobby = document.querySelector(".hobby");
+  hobby.classList.add("margin-top2");
   hobby.classList.remove("no-display");
   const language = document.querySelector(".language");
   language.classList.add("no-display");
@@ -13,7 +14,6 @@ const hobbyPage = () => {
 
 const hobbyClick = () => {
   const hobbyButton = document.querySelectorAll(".hobby-button");
-  console.log(hobbyButton);
   hobbyButton.forEach ((element) => {
     element.addEventListener("click", (event) => {
       hobbyPage();
@@ -22,3 +22,4 @@ const hobbyClick = () => {
 }
 
 export { hobbyClick };
+

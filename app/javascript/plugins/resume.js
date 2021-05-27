@@ -15,7 +15,6 @@ const resumePage = () => {
 
 const resumeClick = () => {
   const resumeButton = document.querySelectorAll(".resume-button");
-  console.log(resumeButton);
   resumeButton.forEach ((element) => {
     element.addEventListener("click", (event) => {
       resumePage();

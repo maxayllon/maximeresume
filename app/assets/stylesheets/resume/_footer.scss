@@ -1,9 +1,11 @@
 .footer {
-  width: 92%;
+  background-color: white;
+  height:80px;
+  width: 100%;
   padding-top: 24px;
   margin: 0 auto;
   margin-top: 60px;
-  margin-bottom: 24px;
+  padding-bottom: 90px;
   display: flex;
   justify-content: space-around;
   border-top: 1px solid $border;

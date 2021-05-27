@@ -1,6 +1,10 @@
 .navbar {
+  background-color: white;
+  position: sticky;
+  top: 0px;
   min-height: 40px;
-  margin-top: 8px;
+  padding-top: 24px;
+  border-bottom: 1px solid $border;
   .languages {
     display: flex;
     justify-content: space-around;
@@ -16,7 +20,7 @@
   .category-button {
     color: black;
     border: none;
-    background-color: $light-gray;
+    background-color: white;
     margin-bottom: 8px;
     padding-left: 20px;
     &:hover {

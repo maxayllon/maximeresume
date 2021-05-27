@@ -24,10 +24,11 @@ import "bootstrap";
 // Internal imports, e.g:
 import { resumeClick } from '../plugins/resume';
 import { hobbyClick } from '../plugins/hobby';
+import { iconClick } from '../plugins/icon';
 
 document.addEventListener('turbolinks:load', () => {
 
   resumeClick();
   hobbyClick();
-
+  iconClick();
 });
