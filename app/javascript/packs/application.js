@@ -22,33 +22,12 @@ ActiveStorage.start()
 import "bootstrap";
 
 // Internal imports, e.g:
-// import { initSelect2 } from '../components/init_select2';
+import { resumeClick } from '../plugins/resume';
+import { hobbyClick } from '../plugins/hobby';
 
 document.addEventListener('turbolinks:load', () => {
 
-  const resumePage = () => {
-    const banner = document.querySelector(".banner");
-    banner.classList.add("no-display");
-    const resume = document.querySelector(".resume");
-    resume.classList.add("margin-top");
-    resume.classList.remove("no-display");
-    const language = document.querySelector(".language");
-    language.classList.add("no-display");
-    const menu = document.querySelector(".menu");
-    menu.classList.remove("no-display");
-  }
-
-
-  const resumeClick = () => {
-    const resumeButton = document.querySelectorAll(".resume-button");
-    console.log(resumeButton);
-    resumeButton.forEach ((element) => {
-      element.addEventListener("click", (event) => {
-        resumePage();
-      })
-    })
-  }
-
   resumeClick();
+  hobbyClick();
 
 });

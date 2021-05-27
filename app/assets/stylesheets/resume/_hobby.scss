@@ -1,0 +1,30 @@
+.hobby {
+  h1, h3 {
+    text-align: center;
+  }
+}
+.hobbies-icon {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+
+  .hobby-icon {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .img {
+    height: 90px;
+    width: 90px;
+  }
+}
+
+.hobbies_description {
+  width: 80%;
+
+  .hobby_description {
+    min-height: 50vh;
+  }
+}
