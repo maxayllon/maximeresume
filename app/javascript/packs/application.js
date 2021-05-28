@@ -25,11 +25,13 @@ import "bootstrap";
 import { resumeClick } from '../plugins/resume';
 import { hobbyClick } from '../plugins/hobby';
 import { iconClick } from '../plugins/icon';
+import { skillClick } from '../plugins/skill';
 
 document.addEventListener('turbolinks:load', () => {
 
   resumeClick();
   iconClick();
   hobbyClick();
+  skillClick();
 
 });
