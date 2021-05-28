@@ -29,6 +29,7 @@ import { iconClick } from '../plugins/icon';
 document.addEventListener('turbolinks:load', () => {
 
   resumeClick();
-  hobbyClick();
   iconClick();
+  hobbyClick();
+
 });
