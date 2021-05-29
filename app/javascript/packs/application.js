@@ -26,6 +26,7 @@ import { resumeClick } from '../plugins/resume';
 import { hobbyClick } from '../plugins/hobby';
 import { iconClick } from '../plugins/icon';
 import { skillClick } from '../plugins/skill';
+import { categoryHover } from '../plugins/category';
 
 document.addEventListener('turbolinks:load', () => {
 
@@ -33,5 +34,5 @@ document.addEventListener('turbolinks:load', () => {
   iconClick();
   hobbyClick();
   skillClick();
-
+  categoryHover();
 });
