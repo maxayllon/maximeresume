@@ -1,5 +1,5 @@
 .skill {
-  width: 90%;
+  width: 95%;
   height: 58.2vh;
   margin: 0 auto;
 
@@ -17,21 +17,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
+      &:hover {
+        background-color: $light-gray;
+        transition: 0.4s;
+      }
     }
 
     .skills-speak, .skills-programming, .skills-it {
-      width: 472px;
-      height: 472px;
+      width: 440px;
+      height: 440px;
       border-radius: 0px;
       border: 1px solid black;
       border-radius: 50%;
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      justify-content: space-around;
     }
 
     .skills-speak {
-      background-color: $red-button;
+      background-color: #c92f1e;
     }
 
     .languages {
@@ -39,7 +43,7 @@
     }
 
     .skills-programming {
-      background-color: $yellow-button;
+      background-color: #c18305;
     }
 
     .programming {
@@ -47,7 +51,7 @@
     }
 
     .skills-it {
-      background-color: $blue-button;
+      background-color: #6eb6b7;
     }
 
     .it {
@@ -78,11 +82,12 @@
   .other {
     display:flex;
     align-items: center;
+    justify-content: center;
   }
 
   .others {
     text-align: center;
-    margin-top: 32px;
+    margin-top: 24px;
     margin-bottom: 12px;
   }
 

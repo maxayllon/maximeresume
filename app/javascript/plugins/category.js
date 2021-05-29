@@ -17,7 +17,7 @@ const firstClose = (category) => {
 };
 
 const categoryHover = () => {
-  languageFirst.addEventListener("mouseover", (event) => {
+  languageFirst.addEventListener("click", (event) => {
     firstClose(languageFirst);
     secondPage(languageSecond)
   });
@@ -27,7 +27,7 @@ const categoryHover = () => {
     secondPage(languageFirst)
   });
 
-  itFirst.addEventListener("mouseover", (event) => {
+  itFirst.addEventListener("click", (event) => {
     firstClose(itFirst);
     secondPage(itSecond)
   });
@@ -37,7 +37,7 @@ const categoryHover = () => {
     secondPage(itFirst);
   });
 
-  programmingFirst.addEventListener("mouseover", (event) => {
+  programmingFirst.addEventListener("click", (event) => {
     firstClose(programmingFirst);
     secondPage(programmingSecond);
   });

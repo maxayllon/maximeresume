@@ -1,5 +1,4 @@
 <div class="skill no-display">
-  <h1 class="text-center">COMPÉTENCES</h1>
   <div class="skill-category">
 
     <div class="first-languages">
@@ -9,16 +8,15 @@
     </div>
     <div class="second-languages no-display">
       <div class="skills-speak">
-          <div class=" category french">
-            <%= image_tag "french.png", class:"img-skills" %>
-          </div>
-          <div class=" category english">
-            <%= image_tag "english.png", class:"img-skills" %>
-          </div>
-          <div class=" category spanish">
-            <%= image_tag "spanish.png", class:"img-skills" %>
-          </div>
-          <h3 class="close">close</h3>
+        <div class=" category french">
+          <%= image_tag "french.png", class:"img-skills" %>
+        </div>
+        <div class=" category english">
+          <%= image_tag "english.png", class:"img-skills" %>
+        </div>
+        <div class=" category spanish">
+          <%= image_tag "spanish.png", class:"img-skills" %>
+        </div>
       </div>
     </div>
 
@@ -35,8 +33,9 @@
           <%= image_tag "ppt.png", class:"img-skills margin-right" %>
           <%= image_tag "excel.png", class:"img-skills" %>
         </div>
-        <h4 class="others">Autres</h4>
-        <div class=" category other">
+        <div>
+          <h4 class="text-center">Autres</h4>
+          <div class=" category other">
           <%= image_tag "datastudio.png", class:"img-skills img-datastudio margin-right" %>
           <div class="figma">
             <%= image_tag "figma.png", class:"img-skills margin-right" %>
@@ -45,7 +44,7 @@
             <%= image_tag "whimsical.png", class:"img-skills" %>
           </div>
         </div>
-        <h3 class="close">close</h3>
+        </div>
       </div>
     </div>
 
@@ -57,20 +56,26 @@
     </div>
     <div class="second-programming no-display">
       <div class="skills-programming">
-        <h4 class="text-center">Back-End</h4>
-        <div class="category back-end">
-          <%= image_tag "ruby.png", class:"img-skills margin-right" %>
-          <%= image_tag "sql.png", class:"img-skills margin-right" %>
-          <%= image_tag "python.png", class:"img-skills" %>
+        <div>
+          <h4 class="text-center">Back-End</h4>
+          <div class="category back-end other">
+            <%= image_tag "ruby.png", class:"img-skills margin-right" %>
+            <%= image_tag "sql.png", class:"img-skills margin-right" %>
+            <%= image_tag "python.png", class:"img-skills" %>
+          </div>
         </div>
-        <h4 class="others">Front-End</h4>
-        <div class=" category front-end">
-          <%= image_tag "html.png", class:"img-wagon margin-right" %>
-          <%= image_tag "css.png", class:"img-wagon margin-right" %>
-          <%= image_tag "js.png", class:"img-skills" %>
+        <div>
+          <h4 class="others">Front-End</h4>
+          <div class=" category front-end other">
+            <%= image_tag "html.png", class:"img-wagon margin-right" %>
+            <%= image_tag "css.png", class:"img-wagon margin-right" %>
+            <%= image_tag "js.png", class:"img-skills" %>
+          </div>
         </div>
-        <h3 class="close">close</h3>
       </div>
     </div>
   </div>
 </div>
+
+
+
