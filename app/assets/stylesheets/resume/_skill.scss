@@ -1,0 +1,52 @@
+.skill {
+  width: 90%;
+  height: 58.2vh;
+  margin: 0 auto;
+
+  .skill-category{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .btn-skill {
+    background-color: blue;
+    min-height: 260px;
+    min-width: 260px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .skills-speak, .skills-programming, .skills-it {
+      width: 472px;
+      height: 472px;
+      border-radius: 0px;
+      border: 1px solid black;
+      grid-gap: 16px;
+      background-color: $blue-button;
+      border-radius: 50%;
+    }
+  }
+
+  .category {
+    margin: 0 auto;
+    padding-top: 8px;
+
+    .img-skills {
+      height: 64px;
+      width: 64px;
+    }
+
+    .img-wagon {
+      height: 64px;
+      width: 52px;
+    }
+
+    .img-datastudio {
+      height: 70px;
+      width: 88px;
+    }
+  }
+}
