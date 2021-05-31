@@ -26,7 +26,6 @@ import { resumeClick } from '../plugins/resume';
 import { hobbyClick } from '../plugins/hobby';
 import { iconClick } from '../plugins/icon';
 import { skillClick } from '../plugins/contact';
-import { App } from '../plugins/mail';
 
 document.addEventListener('turbolinks:load', () => {
 
