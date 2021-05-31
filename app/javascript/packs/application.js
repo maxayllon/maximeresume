@@ -33,5 +33,4 @@ document.addEventListener('turbolinks:load', () => {
   iconClick();
   hobbyClick();
   skillClick();
-  App();
 });
